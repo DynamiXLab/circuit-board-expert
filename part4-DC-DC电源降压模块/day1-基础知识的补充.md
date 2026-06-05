@@ -611,7 +611,7 @@ Buck电路输出 5V / 3A，开关管导通时：
 
 如果把输出直接接到V-输入端（这叫**负反馈**），运放就变成了"电压复制器"：
 
-![电压跟随器电路](picture/follower-circuit.png)
+![电压跟随器电路](picture/follower-circuit-v2.png)
 
 *↑ 电压跟随器：输出接回V-（负反馈），Vout = Vin*
 
