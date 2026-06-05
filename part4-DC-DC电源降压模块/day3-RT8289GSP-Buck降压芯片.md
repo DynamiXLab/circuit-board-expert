@@ -11,7 +11,7 @@
 
 ### 外观与引脚定义
 
-![RT8289GSP引脚图](RT8289GSP-pinout.png)
+![RT8289GSP引脚图](picture/RT8289GSP-pinout.png)
 
 *↑ RT8289GSP SOP-8 EP封装引脚排列：①BOOT ②NC ③NC ④FB ⑤EN ⑥GND ⑦VIN ⑧SW，底部散热焊盘必须焊接到GND*
 
@@ -38,7 +38,7 @@
 
 FB引脚反馈参考电压值为1.222V
 
-![RT8289GSP反馈分压原理](RT8289GSP-feedback.png)
+![RT8289GSP反馈分压原理](picture/RT8289GSP-feedback.png)
 
 *↑ FB引脚通过R1/R2分压检测输出电压，与内部1.222V基准比较后调节占空比*
 
@@ -67,7 +67,7 @@ FB引脚反馈参考电压值为1.222V
 
 ### 4.1 完整电路（本项目5V输出）
 
-![RT8289GSP完整电路图](RT8289GSP-schematic.png)
+![RT8289GSP完整电路图](picture/RT8289GSP-schematic.png)
 
 *↑ RT8289GSP 5V输出完整电路：输入7~12V → 输出5V/3A，COMP和SS悬空（内部集成）*
 
@@ -236,7 +236,7 @@ L1（续流）→ C3/C4 → 负载 → GND → 续流二极管D1 → 回L1
 ③ FB反馈走线的下方 → 有完整GND平面 → 屏蔽敏感信号
 ```
 
-![RT8289GSP回流路径示意](RT8289GSP-return-path.png)
+![RT8289GSP回流路径示意](picture/RT8289GSP-return-path.png)
 
 *↑ 绿色虚线为导通回路，红色虚线为续流回路，回路面积越小EMI越低*
 
